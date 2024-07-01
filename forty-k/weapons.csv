@@ -1,0 +1,4 @@
+Model,Name,Range,Attacks,Ballistic Skill,Strength,Armour Pierce,Damage,Keywords
+Kabalite Warrior,Splinter Rifle,24,2,3,2,0,1,ANTI-INFANTRY 3+|ASSAULT
+Kabalite Warrior,Splinter Cannon,36,3,4,3,1,2,ANTI-INFANTRY 3+|HEAVY|SUSTAINED HITS 1
+Scourge,Dark Lance,36,1,4,12,3,d6+2,HEAVY
