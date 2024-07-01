@@ -7,5 +7,12 @@
 
 (defparameter *units-csv* (cl-csv:read-csv #P"forty-k/units.csv"))
 (defparameter *units* (make-hash-table :test 'EQUAL))
-(hash-csv-vectors (pop *units-csv*) *units-csv* "Model" *units*)
+(hash-csv (pop *units-csv*) *units-csv* "Model" *units*)
+
+(defparameter *weapons-csv* (cl-csv:read-csv #P"forty-k/weapons.csv"))
+(defparameter *weapons* (make-hash-table :test 'EQUAL))
+(hash-csv (pop *weapons-csv*)
+		  *weapons-csv* 
+		  '("Model" "Name")
+		  *weapons*)
 
